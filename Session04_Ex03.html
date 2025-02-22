@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="BUI THANH PHUONG">
+    <title>Liên hệ với chúng tôi</title>
+    <link rel="stylesheet" href="Session04_Ex03.css">
+</head>
+
+<body>
+    <!-- Thực hành tạo form đơn giản cùng CSS -->
+    <!-- Tiêu đề -->
+    <div class="title">
+        <h1>Liên hệ với chúng tôi</h1>
+    </div>
+    <!-- Nội dung liên hệ -->
+    <div class="form_content">
+        <form action="https://api.gateway.com" method="post">
+            <!-- Họ và tên -->
+            <div class="username">
+                <label for="username">Họ và tên:</label>
+                <br>
+                <input type="text" id="username" name="hoten" placeholder="Mời bạn nhập họ và tên">
+            </div>
+            <!-- Email -->
+            <div class="email">
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" placeholder="abc123@gmail.com">
+            </div>
+            <!-- Tin nhắn -->
+            <div class="messenger">
+                <label for="mess">Tin nhắn:</label>
+                <br>
+                <textarea name="tinnhan" id="mess" rows="3" cols="20"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Gửi</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

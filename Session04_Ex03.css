@@ -1,0 +1,59 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.form_content{
+    max-width: max-content;
+    font-size: 1.1em;
+    margin-left: 20px;
+}
+.form_content .username,.email,.messenger label{
+    font-weight: bold;
+}
+.form_content .username{
+    line-height: 25px;
+}
+.form_content .email{
+    line-height: 25px;
+}
+.form_content .messenger{
+    line-height: 25px;
+}
+#username,#email{
+    width: 400px;
+    height: 30px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+}
+#mess{
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+}
+.username,.email,.messenger{
+    margin-top: 15px;
+}
+::placeholder{
+    font-size: 1.1em;
+    padding-left: 5px;
+}
+.button{
+    background-color: #00BF4A;
+    border-radius: 5px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+}
+.button button{
+    border: none;
+    background-color: unset;
+    width: 405px;
+    padding: 0;
+    color: white;
+    font-size: 1em;
+}
+.button :hover{
+    cursor: pointer;
+    background-color: #008d36;
+    border-radius: 5px;
+}
