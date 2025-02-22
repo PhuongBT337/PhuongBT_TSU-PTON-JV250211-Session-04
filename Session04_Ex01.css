@@ -1,0 +1,18 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.title{
+    background-color: rgb(37, 36, 36);
+    color: white;
+    text-align: center;
+}
+.text_content{
+    text-align: center;
+}
+.img_content img{
+    width: 500px;
+    height: 500px;
+}
+.img_content{
+    text-align: center;
+}
