@@ -1,0 +1,21 @@
+body{
+    padding-left: 15px;
+}
+.text3{
+    background-color: #FFFDD0;
+    max-width: fit-content;
+    padding: 15px;
+}
+
+.text3 span{
+    color: orange;
+}
+
+.text3 .orange_line{
+    width: 5px;
+    height: 130px;
+    background-color: orange;
+    position: absolute;
+    left: 20px;
+    top: 220px;
+}
