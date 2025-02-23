@@ -1,0 +1,131 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* bài 1 */
+.company{
+    text-align: center;
+}
+.size_wh{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.size_wh p{
+    background-color: #8598CC;
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+}
+.hosting{
+    font-size: 2em;
+
+}
+.hosting span{
+    color: rgb(17, 128, 226);
+    font-weight: bold;
+}
+.text_content p{
+    margin-top: 5px;
+}
+
+button{
+    background-color: #2D3032;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.button_menu :hover{
+    cursor: pointer;
+}
+/* ********************************************************** */
+/* Bài 2 */
+.restaurant{
+    background-color: #e1e1e1;
+    padding-top: 1px;
+}
+.right_line{
+    background-color: purple;
+    width: 5px;
+    height: 357px;
+    position: absolute;
+    z-index: 1;
+    right: 4px;
+}
+.title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.img_ABC{
+    text-align: center;
+}
+.img_ABC img{
+    width: 300px;
+    height: 200px;
+}
+.preview p{
+    color: #807f81;
+    padding: 1em;
+}
+.preview span{
+    color: red;
+}
+/* **************************************************** */
+/* Bài 3 */
+.register_form{
+    width: 760px;
+    background-color: #F7F7F7;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.bg{
+    background-color: white;
+}
+form{
+    padding-left: 25px;
+    line-height: 3em;
+}
+form h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.bg input{
+    width: 727px;
+    height: 40px;
+}
+.bg label{
+    font-size: 1.3em;
+}
+.bg textarea{
+    width: 727px;
+    height: 100px;
+    border-radius: 5px solid gray;
+}
+
+.bg .file{
+    border: 1px solid #767676;
+    width: 733px;
+    height: 40px;
+}
+
+.bg .file input{
+    top: 1431px;
+    left: 55px;
+    position: absolute;
+    z-index: 1;
+}
+
+.bg button{
+    width: 727px;
+    font-size: 1em;
+}
+
+button:hover{
+    cursor: pointer;
+}

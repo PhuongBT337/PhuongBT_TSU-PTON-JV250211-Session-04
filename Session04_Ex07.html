@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="BUI THANH PHUONG">
+    <title>Làm quen với CSS cơ bản</title>
+    <link rel="stylesheet" href="Session04_Ex07.css">
+</head>
+
+<body>
+    <!-- Bài 1 -->
+    <div class="company">
+        <div class="size_wh">
+            <p>190 x 50</p>
+        </div>
+        <div class="hosting">
+            <p>Best <span>Shared Hosting</span> Company</p>
+        </div>
+        <div class="text_content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, eos officiis
+            </p>
+        </div>
+        <div class="button_menu">
+            <button type="menu">View Plans</button>
+            <button type="menu">All Features</button>
+        </div>
+    </div>
+    <!-- Bài 2 -->
+    <p>-------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+    <p style="font-size: 2em; font-weight: bold;">Bài 2</p>
+    <div class="restaurant">
+        <div class="right_line"></div>
+        <div class="title">
+            <p>Nhà hàng ABC</p>
+        </div>
+        <div class="img_ABC">
+            <img src="./images/restaurant.jpg" alt="Nha hang ABC">
+        </div>
+        <div class="preview">
+            <p>
+                <span>Chào mừng đến với nhà hàng ABC.</span> Chúng tôi chuyên phục vụ các món ăn ngon và chất lượng, đặc
+                biết là các
+                món ăn đặc sản. Vơi không gian sang trọng và đội ngũ nhân viên chuyên nghiệp, chúng tôi tin rằng sẽ mang
+                đến cho quý khách trải nghiệm tuyệt vời nhất.
+            </p>
+        </div>
+    </div>
+    <p>-------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+    <p style="font-size: 2em; font-weight: bold;">Bài 3</p>
+    <!-- Bài 3 -->
+     <div class="register_form">
+        <div class="bg">
+            <form action="#" method="post">
+                <h1>Tuyển dụng</h1>
+                <label for="username" >Họ và tên:</label><br>
+                <input type="text" id="username" name="hoten" placeholder="Nhập họ và tên"><br>
+                <label for="email" >Email:</label><br>
+                <input type="email" id="email" name="gmail" placeholder="abc123@gmail.comcom"><br>
+                <label for="phone" >Số điện thoại:</label><br>
+                <input type="tel" id="phone" name="phonenumber" placeholder="123-1234-4321" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"><br>
+                <label for="choose_file" >CV:</label><br>
+                <div class="file">
+                    <input type="file" id="choose_file" name="phonenumber"><br>
+                </div>
+                <label for="mess" >Tin nhắn:</label><br>
+                <textarea rows="3" cols="20" name="messenger" id="mess"></textarea><br>
+                <button type="submit">Gửi</button>
+            </form>
+        </div>
+     </div>
+</body>
+
+</html>
