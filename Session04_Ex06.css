@@ -1,0 +1,28 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.left_menu{
+    background-color: rgb(213, 213, 213);
+    text-align: left;
+    width: 150px;
+}
+.navbar{
+    list-style: none;
+    font-size: 1.2em;
+    line-height: 35px;
+}
+
+.right_menu{
+    padding-left: 30px;
+    position:absolute;
+    top: 10px;
+}
+
+.navbar :hover{
+    background-color: rgb(12, 167, 35);
+    color: white;
+}
+.navbar li{
+    padding: 3px;
+}
